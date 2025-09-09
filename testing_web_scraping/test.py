@@ -6,7 +6,7 @@ import os
 
 ICS_URL = "https://wmsu.edu.ph/events/?ical=1"
 CACHE_FILE = "events_hash.txt"
-POLL_INTERVAL = 600  # seconds (10 minutes)
+POLL_INTERVAL = 300  # seconds (5 minutes)
 
 def fetch_ics():
     headers = {
